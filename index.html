@@ -1,18 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Katie's Project</title>
+	<title>Katie's Unit 9 Project</title>
 	<meta charset="UTF-8">
-	<title>Katie's Final Project</title>
-	  <link rel="stylesheet" type="text/css" href="css/style.css">
-
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Krona+One|Open+Sans:400,600" rel="stylesheet">
 </head>
 <body>
 	
-	<h1>Well here we are...</h1>
-	<p>What shall we create?</p>
+	<h1>MONK'S CAFE</h1>
+
+	<h2>"The Coffee Shop"</h2>
+
+	<img src="images/toms-restaurant.jpg" alt="Tom's Restaurant" style="width: 100%"></img>
+
+	<h1>RESERVATIONS</h1>
+
+	<div class="row">
+    <div class="column">
+    	<form>
+    		<label>Make a Reservation</label><br><br>
+    		<div>
+    	Name
+    	<input class="name" type="text" placeholder="Your name"></div><br>
+   		<div>Day
+   		<input class="day" type="text" placeholder="Day"></div><br>
+    	<button>CONFIRM</button>
+		</form>
+	</div>
+    
+    <div class="column">
+    	<table class="existing-reservations"> 
+    		<label>Existing Reservations</label><br><br>
+		<thead>
+		<tr class="table-header">
+			<th>NAME</th>
+			<th>DAY</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+		 <td></td>
+		</tr>
+		</tbody>
+		</table>
+    </div>
+	
+	</div>
+	
+	<h1>
+		COME DINE WITH US
+	</h1>
 
 	<div id="map"></div>
+
+	<div class="reviews">
+		<h1>
+		CUSTOMER REVIEWS
+	</h1>
+
+	<img src="images/jerry.jpg" alt="Jerry"style="float:left;width:485px;height:342px;"></img>
+		<h2>Customer Reviews</h2>
+		<p>“Big lettuce, big carrots, tomatoes like volleyballs.” <br>
+— Jerry Seinfeld, on The BIG Salad</p>
+	</div>
 
 <script src="js/jquery-3.3.1.min.js"></script>
 
